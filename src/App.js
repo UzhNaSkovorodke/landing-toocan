@@ -1,9 +1,11 @@
+import "./App.module.scss";
+
 function App() {
   return (
     <div>
-      <header>
-        <p>It's start and over</p>
-      </header>
+      <header></header>
+      <main></main>
+      <footer></footer>
     </div>
   );
 }
