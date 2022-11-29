@@ -1,20 +1,9 @@
 import React from 'react';
 import styles from './PlaceList.module.scss';
 import PlaceListItem from './PlaceListItem';
+import massive from './massive';
 
 const PlaceList = () => {
-  const massive = [
-    { title: 'sushi' },
-    { title: 'notSushi' },
-    { title: 'hardSushi' },
-    { title: 'superSushi' },
-    { title: 'megaSushi' },
-    { title: 'lightSushi' },
-    { title: 'chinese' },
-    { title: 'chinese' },
-    { title: 'megaSushi' },
-    { title: 'hardSushi' },
-  ];
   return (
     <div className={styles.listWrapper}>
       {massive

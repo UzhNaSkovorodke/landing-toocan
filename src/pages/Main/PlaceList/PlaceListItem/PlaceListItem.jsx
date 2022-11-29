@@ -5,13 +5,10 @@ const PlaceListItem = ({ item }) => {
   return (
     <div className={styles.plItem}>
       <div className={styles.plItem_imgWrapper}>
-        <img
-          src="https://eda.yandex/images/3106738/cd7d82751efb7e214cc28581ce373323-450x300.jpg"
-          alt="none"
-        />
+        <img src={item.link} alt="none" />
       </div>
-      <p>{item.title}</p>
-      <div>4.9 Рекомендуем</div>
+      <p className={styles.plItem_title}>{item.title}</p>
+      <p className={styles.plItem_subTitle}>4.9 Рекомендуем</p>
     </div>
   );
 };
