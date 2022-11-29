@@ -1,6 +1,6 @@
 import React from 'react';
-import './App.module.scss';
-import Find from './component/Find';
+import './App.css';
+import Main from './pages/Main';
 
 function App() {
   return (
@@ -9,9 +9,7 @@ function App() {
         <h1>Система брони</h1>
       </header>
       <main>
-        <Find />
-        <div>Меню</div>
-        <div>Забронировать</div>
+        <Main />
       </main>
       <footer>все зарегано</footer>
     </div>

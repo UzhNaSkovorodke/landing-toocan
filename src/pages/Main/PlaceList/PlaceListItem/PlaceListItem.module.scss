@@ -1,0 +1,22 @@
+.plItem {
+  width: 20%;
+  cursor: pointer;
+  min-width: 100px;
+  margin: 2% 2rem 2% 2rem;
+
+  .plItem_imgWrapper {
+    display: flex;
+    justify-content: center;
+
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      border-radius: 25px;
+    }
+  }
+}
+
+.plItem:hover {
+  transition: 0.12s;
+}
