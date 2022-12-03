@@ -12,7 +12,7 @@
     margin: 2% 2%;
   }
   cursor: pointer;
-  margin: 2% 2rem 2% 2rem;
+  margin: 2% 2%;
 
   .plItem_imgWrapper {
     display: flex;
@@ -55,6 +55,7 @@
   .plItem_title {
     font-size: 1.4rem;
     margin-top: 1rem;
+    font-weight: 500;
     @media only screen and (max-width: 1024px) {
       font-size: 1.2rem;
     }

@@ -1,8 +1,13 @@
 const massive = [
   {
+    title: '1755',
+    link: 'https://img.restoclub.ru/uploads/place/a/2/e/6/a2e61b5ab602ebdbb2fa78a9237acf6a_w958_h835--big.jpg',
+    raiting: 4.9,
+  },
+  {
     title: 'Hedonist',
     link: 'https://www.restoclub.ru/uploads/place_thumbnail_big/a/c/1/b/ac1b7597036aad92deafff2bbda5bfe2.jpg',
-    raiting: 4.9,
+    raiting: 4.8,
   },
   {
     title: 'Uhvat',
@@ -48,6 +53,11 @@ const massive = [
     title: 'Lauren Parker',
     link: 'https://www.restoclub.ru/uploads/place_thumbnail_big/a/c/1/b/ac1b7597036aad92deafff2bbda5bfe2.jpg',
     raiting: 4.8,
+  },
+  {
+    title: 'Freya',
+    link: 'https://img.restoclub.ru/uploads/place/2/8/3/c/283c6c38e749e837c06c30deef04fbc0_w958_h835--big.jpg',
+    raiting: 4.6,
   },
 ];
 export default massive;
