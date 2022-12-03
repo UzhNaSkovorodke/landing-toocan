@@ -6,6 +6,7 @@ const Restaurant = () => {
   return (
     <>
       <RestaurantCarousel />
+
       <RestaurantForYou />
     </>
   );
