@@ -1,13 +1,13 @@
 import React from 'react';
-import FindSystem from './FindSystem';
+// import Modal from '../../component/Modal';
+
 import PlaceList from './PlaceList';
 
 const Main = () => {
   return (
     <>
-      <div />
-      <FindSystem />
       <PlaceList />
+      <footer>end</footer> <footer>end</footer>
     </>
   );
 };

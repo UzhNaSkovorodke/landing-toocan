@@ -8,7 +8,10 @@ const PlaceListItem = ({ item }) => {
         <img src={item.link} alt="none" />
       </div>
       <p className={styles.plItem_title}>{item.title}</p>
-      <p className={styles.plItem_subTitle}>4.9 Рекомендуем</p>
+      <p className={styles.plItem_subTitle}>
+        {item.raiting}
+        {item.raiting > 4.6 ? ' Рекомендуем' : ' Хорошие отзывы'}
+      </p>
     </div>
   );
 };
