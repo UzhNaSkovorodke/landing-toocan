@@ -6,8 +6,11 @@ import PlaceList from './PlaceList';
 const Main = () => {
   return (
     <>
-      <PlaceList />
-      <footer>end</footer> <footer>end</footer>
+      <h1>Рестораны</h1>
+      <PlaceList category="Тихое место" />
+      <PlaceList category="Недавно открылись" />
+      <PlaceList category="Азиатская кухня" />
+      <PlaceList category="Прочее" />
     </>
   );
 };

@@ -1,0 +1,19 @@
+.carouselWrapper {
+  padding-top: 4rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+.imgFirstChild {
+  border-radius: 30px 0% 0% 30px;
+}
+.imgLastChild {
+  border-radius: 0% 30px 30px 0;
+}
