@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, Outlet } from 'react-router-dom';
+import SearchIcon from '../../../assets/icons';
 import styles from './OutletLaoyut.module.scss';
 
 const OutletLaoyut = () => {
@@ -11,7 +12,12 @@ const OutletLaoyut = () => {
             <Link to="/">
               <div className={styles.logo}>Toocan</div>
             </Link>
-            <input placeholder="Найти рестораны" />
+            <div className={styles.searchInputWrapper}>
+              <input placeholder="Найти рестораны" />
+              <div className={styles.outletIconWrapper}>
+                <SearchIcon />
+              </div>
+            </div>
             <input placeholder="Укажите свой адресс" />
           </div>
           <div className={styles.secondNavSection}>
